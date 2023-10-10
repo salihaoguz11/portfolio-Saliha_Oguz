@@ -32,11 +32,14 @@ body{
 }
 .link a{
     color: #fff;
-    opacity: 0.5;
+    opacity: 0.6;
     text-decoration: none;
     text-transform: capitalize;
     padding: 10px 30px;
     line-height: 80px;
     transition: .5s;
     font-size: 20px;
+}
+.link a:hover, .link active a{
+    opacity: 1;
 }
