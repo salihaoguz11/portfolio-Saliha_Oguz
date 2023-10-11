@@ -71,7 +71,8 @@ body{
     opacity:0.2
     
 }
-.home-section.active{
+.home-section.active,
+.project-section.active{
     position: relative;
     opacity: 1;
     z-index: 8;
@@ -99,4 +100,10 @@ opacity: 0;
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-stroke: 8px transparent;
+}
+
+.project-container{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-gap: 100px;
 }
