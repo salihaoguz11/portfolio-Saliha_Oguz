@@ -221,3 +221,28 @@ border-radius: 20px;
     background: #000;
     color: #fff;
  }
+
+ /*  skills */
+
+ .skill-section{
+    position: relative;
+    margin: 100px 0;
+
+ }
+ .heading{
+    text-align: center;
+    font-size: 60px;
+    color: #fff;
+    text-transform: capitalize;
+    font-weight: 300;
+    margin-bottom: 100px;
+ }
+
+ .skill-container{
+    width: 95%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-gap: 100px;
+    color: #fff;
+ }
