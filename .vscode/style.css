@@ -268,3 +268,36 @@ border-radius: 20px;
     font-size: 18px;
     line-height: 30px;
  }
+
+                       /*  timeline */
+.timeline{
+    display: block;
+    width: 80%;
+    margin: 150px auto;
+}
+.timeline .heading{
+    margin-bottom: 150px;
+}
+
+.card{
+    width: 45%;
+    padding: 30px;
+    border-radius: 10px;
+    color: #fff;
+    display: block;
+    margin: -80px 0;
+    position: relative;
+    background: #f00;
+}
+.card:nth-child(even){
+    margin-left: auto;
+}
+.card:nth-child(even):before{
+    content: '';
+    position: absolute;
+    left: -15%;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 20px;
+    height: 20px;
+}
