@@ -300,4 +300,17 @@ border-radius: 20px;
     transform: translateY(-50%);
     width: 20px;
     height: 20px;
+    border: 5px solid #191919;
+    border-radius: 50%;
+}
+.card:nth-child(even):after{
+content: '';
+position: absolute;
+left: -8.5%;
+top: 50%;
+transform: translateY(-50%);
+width: 7%;
+height: 2px;
+background: #fff;
+z-index: -1;
 }
