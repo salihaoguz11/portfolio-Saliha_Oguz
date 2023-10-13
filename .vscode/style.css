@@ -343,3 +343,9 @@ z-index: -1;
 .card:nth-child(3), .card:nth-child(3)::before{
     background: #ffb84f;
 }
+.card:nth-child(4), .card:nth-child(4)::before{
+    background: #3dca5c;
+}
+.card:nth-child(5), .card:nth-child(5)::before{
+    background: #565252;
+}
