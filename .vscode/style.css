@@ -314,3 +314,26 @@ height: 2px;
 background: #fff;
 z-index: -1;
 }
+
+.card:nth-child(odd):before{
+    content: '';
+    position: absolute;
+    right: -13%;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 20px;
+    height: 20px;
+    border: 5px solid #191919;
+    border-radius: 50%;
+}
+.card:nth-child(odd):after{
+    content: '';
+    position: absolute;
+    right: -8.5%;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 7%;
+    height: 2px;
+    background: #fff;
+    z-index: -1;
+}
