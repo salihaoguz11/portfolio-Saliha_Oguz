@@ -413,3 +413,16 @@ z-index: -1;
     border-radius: 10px;
     cursor: pointer;
 }
+.map{
+    width: 100%;
+    height: 100%;
+    padding: 10px;
+    border: 2px solid #fff;
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 10px;
+}
+.map iframe{
+    width: 100%;
+    height: 100%;
+    border-radius: 5px;
+}
