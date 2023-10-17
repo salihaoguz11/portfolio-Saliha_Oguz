@@ -123,7 +123,7 @@ transition: 1s;
     position: absolute;
     top: 0;
     left: 0;
-    object-fit: cover;
+    object-fit: contain;
     transition: .5s;
 }
 .project-content{
