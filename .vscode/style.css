@@ -253,7 +253,7 @@ border-radius: 20px;
  }
  .skill-card{
     position: relative;
-    margin: 35px;
+    margin: 45px;
  }
  .skill-img{
     display: block;
@@ -401,7 +401,7 @@ z-index: -1;
     border: 1px solid #fff;
     margin-bottom: 30px;
     border-radius: 5px;
-    text-transform: capitalize;
+    /* text-transform: capitalize; */
     color: #fff;
     padding: 5px 10px;
 }
