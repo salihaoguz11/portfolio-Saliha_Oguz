@@ -378,13 +378,14 @@ z-index: -1;
     position: relative;
     top: 0;
     /* opacity: 0; */
+    /* margin: auto; */
     transition: 1s;
     padding: 100px 150px;
     height: 100vh;
-    display: flex;
-    flex-direction: row;
-    /* grid-template-columns: repeat(2,1fr);
-    grid-gap: 50px; */
+    display: grid;
+    /* flex-direction: row; */
+    grid-template-columns: repeat(2,1fr);
+    grid-gap: 50px;
 }
 
 .contact-form input, .contact-form textarea{
@@ -463,7 +464,14 @@ z-index: -1;
         display: block;
         border-bottom: 1px solid white;
     }
-
+  .map{
+    display: none;
+  }
+  .contact-section{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
 }
 @media screen and (max-width:480px) {
     .hero-heading{
