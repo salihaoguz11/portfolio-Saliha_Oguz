@@ -1,5 +1,7 @@
 const links=document.querySelectorAll('.link')
 const sections=document.querySelectorAll('section')
+const hamburgerMenu=document.querySelector('.hamburger-menu')
+const navbar=document.querySelector('.navbar')
 
 let activeLink=0;
 
@@ -22,4 +24,11 @@ links.forEach((link, i) => {
         //     }, 1000);
         // }
     })
+})
+hamburgerMenu.addEventListener('click',()=>{
+    if(window.getComputedStyle(navbar).display==='none'){
+        navbar.style.display='block'
+    }else{
+        navbar.style.display='none'
+    }
 })

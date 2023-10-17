@@ -32,6 +32,7 @@ body{
 .link-group{
     list-style: none;
     display: flex;
+    justify-content: center;
 }
 .link a{
     color: #fff;
@@ -446,6 +447,7 @@ z-index: -1;
     }
     .hamburger-menu{
         display: block;
+        font-size: 32px;
     }
     .navbar{
         display: none;
