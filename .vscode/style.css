@@ -375,7 +375,12 @@ z-index: -1;
 .card:nth-child(6), .card:nth-child(6)::before{
     background: #4fa0ff;
 }
-
+.card:nth-child(7), .card:nth-child(4)::before{
+    background: #3dca5c;
+}
+.card:nth-child(8), .card:nth-child(3)::before{
+    background: #ffb84f;
+}
 .card:nth-child(even) .card-body::before{
     content: '';
     position: absolute;
