@@ -77,6 +77,23 @@ body{
     color: #00abf0;
     -webkit-text-stroke: -5x #fff;
 }
+.home-content p{
+    font-size: 16px;
+   margin-top: 20px;
+}
+.home-icons a{
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    background: transparent;
+    border: 2px solid #fff;
+    border-radius: 50%;
+    font-size: 20px;
+    color: #00abf0;
+    text-decoration: none;
+}
 .home-img{
     position: absolute;
     top: 0;
