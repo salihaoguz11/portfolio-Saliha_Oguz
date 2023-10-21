@@ -46,6 +46,7 @@ body{
 }
 .link a:hover, .link active a{
     opacity: 1;
+    color: #00abf0;
 }
    /* home-section */
 .home-section{
@@ -97,6 +98,7 @@ body{
 .home-content p{
     font-size: 16px;
    margin-top: 20px;
+   line-height: 1.2;
 }
 .home-icons{
     margin: 25px 0 40px;
@@ -206,6 +208,8 @@ transition: 1s;
     color: #fff;
     transition: .5s;
     opacity: 0;
+    background: rgba(0, 0, 0, 0.5);
+    padding: 15px;
 }
 
 .project-title{
@@ -254,7 +258,7 @@ transition: 1s;
 
 }
 .project-card:hover .project-img{
-    filter: blur(20px);
+    filter: blur(10px);
 }
 .project-card:hover .project-content{
    opacity: 1;
