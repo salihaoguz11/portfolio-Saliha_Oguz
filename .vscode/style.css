@@ -152,7 +152,7 @@ body{
 }
 .home-section.active,
 .project-section.active,
-.about-section.active,
+.skill-section.active,
 .contact-section.active{
     position: relative;
     opacity: 1;
