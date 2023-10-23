@@ -387,10 +387,11 @@ border-radius: 20px;
  .details-containers{
     padding: 1.5rem;
     flex:1;
-    background: white;
+    /* background: rgba(255, 255, 255, 0.2); */
+    color: #fff;
     border-radius: 2rem;
-    border: rgb(53,53,53) 0.1rem solid;
-    border-color: rgb(163,163,163);
+    border: rgb(53,53,53) 0.4rem solid;
+    border-color: #00abf0;
     text-align: center;
 
 }
@@ -598,6 +599,9 @@ z-index: -1;
 @media (max-width: 768px) {
     .home-section, .project-section, .about-section, .contact-section{
         padding: 0 50px;
+    }
+    .home-img{
+        display:none;
     }
     .hero-heading{
         font-size: 60px;
