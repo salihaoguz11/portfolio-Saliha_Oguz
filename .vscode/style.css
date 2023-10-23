@@ -332,8 +332,10 @@ border-radius: 20px;
 
                    /*  skills */
 
- /* .skill-cards{
+ .skill-cards{
     position: relative;
+    display:block;
+ 
     margin: 100px 0;
 
  }
@@ -357,9 +359,11 @@ border-radius: 20px;
  }
  .skill-card{
     position: relative;
-    /* margin: 45px; */
-    /* box-sizing: border-box;
+    /* display: none; */
+    margin: 45px;
+    /* box-sizing: border-box;*/
  }
+
  .skill-img{
     display: block;
     margin: auto;
@@ -374,12 +378,12 @@ border-radius: 20px;
     margin: 30px 0 20px;
     color: #fff;
     
- } */ */
-
-
- .skill-section{
-    position: relative;
  }
+
+
+ /* .skill-section{
+    position: relative;
+ } */
  .details-containers{
     padding: 1.5rem;
     flex:1;
@@ -399,7 +403,7 @@ border-radius: 20px;
 
  }
  .experience-details-container{
-    display: flex;
+    display: none;
     justify-content: center;
     flex-direction: column;
  }
@@ -418,6 +422,8 @@ border-radius: 20px;
     gap: 0.5rem;
 
 }
+
+
                        /*  timeline */
 .timeline{
     display: block;
@@ -598,6 +604,12 @@ z-index: -1;
     }
     .skills-container{
         grid-template-columns: repeat(2,1fr);
+    }
+    .skill-cards{
+        display: none;
+    }
+    .experience-details-container{
+        display: block;
     }
     .hamburger-menu{
         display: block;
