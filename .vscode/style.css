@@ -153,7 +153,8 @@ body{
 .home-section.active,
 .project-section.active,
 .skill-section.active,
-.contact-section.active{
+.contact-section.active,
+.education-section.active{
     position: relative;
     opacity: 1;
     z-index: 8;
@@ -435,7 +436,7 @@ article h3{
     margin: 150px auto;
 }
 .timeline .heading{
-    margin-bottom: 150px;
+    margin-bottom: 120px;
 }
 
 .card{
@@ -503,13 +504,13 @@ z-index: -1;
     background: #ffb84f;
 }
 .card:nth-child(4), .card:nth-child(4)::before{
-    background: #3dca5c;
+    background:#84B026
 }
 .card:nth-child(5), .card:nth-child(5)::before{
-    background: #565252;
+    background: #BF7069;
 }
 .card:nth-child(6), .card:nth-child(6)::before{
-    background: #4fa0ff;
+    background: #00abf0;
 }
 .card:nth-child(7), .card:nth-child(4)::before{
     background: #ff4f4f;
@@ -561,6 +562,10 @@ z-index: -1;
 }
 ::placeholder{
     color: #fff;
+}
+.contact-heading{
+    color: #fff;
+    text-align: center;
 }
 #msg{
     height: 280px;
@@ -628,6 +633,9 @@ line-height: 24px;
     }
     .experience-details-container{
         display: block;
+    }
+    .timeline .heading{
+        margin-bottom: 70px;
     }
     .card{
         width: 100%;
