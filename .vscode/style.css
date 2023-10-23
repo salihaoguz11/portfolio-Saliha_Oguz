@@ -381,13 +381,10 @@ border-radius: 20px;
  }
 
 
- /* .skill-section{
-    position: relative;
- } */
+
  .details-containers{
     padding: 1.5rem;
     flex:1;
-    /* background: rgba(255, 255, 255, 0.2); */
     color: #fff;
     border-radius: 2rem;
     border: rgb(53,53,53) 0.4rem solid;
@@ -611,7 +608,18 @@ z-index: -1;
     }
     .project-container{
         grid-template-columns: 1fr;
+        grid-gap: 50px;
     }
+    .project-info{
+        margin:20px;
+    font-size: 16px;
+line-height: 24px;
+}
+.project-btn{
+    font-size: 14px;
+    height: 30px;
+    line-height: 30px;
+}
     .skills-container{
         grid-template-columns: repeat(2,1fr);
     }
