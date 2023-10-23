@@ -629,6 +629,21 @@ line-height: 24px;
     .experience-details-container{
         display: block;
     }
+    .card{
+        width: 100%;
+        margin-left: 0;
+        margin: 20px 0;
+    }
+    .card:nth-child(odd):before,
+    .card:nth-child(odd):after{
+content: none;
+    }
+    .card:nth-child(even):before,
+    .card:nth-child(even):after,
+    .card:nth-child(even) .card-body::before{
+       content: none;
+
+    }
     .hamburger-menu{
         display: block;
         font-size: 32px;
