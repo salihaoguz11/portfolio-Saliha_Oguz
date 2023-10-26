@@ -622,8 +622,20 @@ z-index: -1;
         grid-template-columns: 1fr;
         grid-gap: 50px;
     }
+    .project-card{
+        display: flex;
+        flex-direction: column;
+    }
+    .project-heading{
+        order: 1;
+    }
+    .project-img{
+        order: 2;
+    }
     .project-content{
         opacity:1;
+        order: 3;
+    }
     }
     .project-info{
         margin:20px;
