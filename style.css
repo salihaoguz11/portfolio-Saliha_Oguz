@@ -227,7 +227,7 @@ transition: 1s;
     position: relative;
     top: 0;
     left: 0;
-    object-fit: contain;
+    object-fit: cover;
     aspect-ratio: 16/9;
     transition: .5s;
     /* margin:0; */
@@ -265,6 +265,7 @@ padding: 0;
     margin-top: 20px;
     
 }
+
 .project-btn{
     /* height: 40px;
     text-transform: capitalize;
@@ -281,11 +282,18 @@ padding: 0;
     text-transform: capitalize;
     font-size: 18px;
     border: none;
+    /* border: 2px solid #000; */
     background: #000;
     color:#fff;
     text-decoration: none;   
     cursor: pointer;
     transition: 0.3s;  
+}
+
+.project-btn:hover{
+    /* background:#00abf0;   */
+    opacity:0.4;
+    transition: 1s;
 }
 .project-btn.live{
     background: none;
