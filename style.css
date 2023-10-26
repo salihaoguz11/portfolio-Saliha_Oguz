@@ -622,7 +622,7 @@ z-index: -1;
         grid-template-columns: 1fr;
         grid-gap: 50px;
     }
-    .project-content{
+    .project-btn-group{
         opacity:1;
     }
     .project-info{
