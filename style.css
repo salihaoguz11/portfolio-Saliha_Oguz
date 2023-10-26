@@ -309,13 +309,13 @@ padding: 0;
 } */
 
                   /* about-section */
- .about-section{
+ /* .about-section{
     width: 100%;
     min-height: 100vh;
     padding: 150px 100px 0;
     position: relative;
     top: 0;
-    /* opacity: 0; */
+    opacity: 0;
     transition: 1s;
  }
 
@@ -359,8 +359,9 @@ border-radius: 20px;
  .download-cv-btn:hover{
     background: #000;
     color: #fff;
- }
+ } */
 
+ 
                    /*  skills */
 
  .skill-cards{
