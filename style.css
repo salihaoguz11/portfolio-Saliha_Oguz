@@ -647,7 +647,7 @@ z-index: -1;
         font-size: 60px;
     }
     .project-heading, .card-title, .heading{
-        font-size: 50px;
+        font-size: 40px;
     }
     .project-container{
         grid-template-columns: 1fr;
@@ -659,7 +659,7 @@ z-index: -1;
 line-height: 24px;
 }
 .project-btn{
-    font-size: 14px;
+    font-size: 18px;
     height: 30px;
     line-height: 30px;
 }
