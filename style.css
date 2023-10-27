@@ -649,6 +649,9 @@ z-index: -1;
     .project-heading, .card-title, .heading{
         font-size: 40px;
     }
+    .project-title-h2{
+        font-size: 15px;
+    }
     .project-container{
         grid-template-columns: 1fr;
         grid-gap: 50px;
